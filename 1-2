@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+#define PI 3.1415926
+
+double s,v;
+double area(double x)
+{
+	return  PI*x*x; 
+}
+double volume(double h)
+{
+	return s*h;	
+}
+
+void main(void)
+{
+	double r,h;
+	scanf("%lf,%lf",&r,&h);
+	
+	s=area(r);
+	printf("%lf\n",s);
+	
+	v=volume(h);
+	printf("%lf\n",v);
+	
+	return 0;	
+}
