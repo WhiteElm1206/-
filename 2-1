@@ -1,0 +1,9 @@
+#include <stdio.h>
+void main(void)
+{
+	float x = 0.999969482421875;
+	float y = 0.99999999;
+	printf("%.15f\n",x);
+	printf("%.8f\n",y);
+	return 0;
+} 
